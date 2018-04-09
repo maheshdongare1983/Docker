@@ -8,6 +8,7 @@ RUN pip install -r requirements.txt
 EXPOSE 443
 # Make port 80 available to the world outside this container
 EXPOSE 80
+EXPOSE 81
 
 # Define environment variable
 ENV NAME planet
